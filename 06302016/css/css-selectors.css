@@ -1,8 +1,6 @@
-/*.reset-list > li:last-child > a:first-child {
-	color: red
-}
-*/
-[href*="item-3"], [href*="content-1"] {
+/*item-3, content-1 내용을 포함한 <a> 요소들을 선택하려면?*/
+
+/*[href*="item-3"], [href*="content-1"] {
 	color:red;
 }
 
@@ -13,3 +11,19 @@
 [href="child/item-3.html"], [href="child/content-1.html"] {
 	background-color: blue;
 }
+*/
+
+/*id="parent"인 요소의 2번째 직계 자식을 찾은 후, 해당 자식의 
+자손들 중 <li> 요소를 제외한 나머지 요소를 모두 선택하려면?*/
+
+#parent > div:nth-child(2) > .child, 
+#parent > div:nth-child(2) > ul {
+    color: red;
+}
+
+
+
+/*.reset-list > li:last-child > a:first-child {
+	color: red
+}
+*/
