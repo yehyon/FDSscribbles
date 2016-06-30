@@ -1,6 +1,7 @@
 /*item-3, content-1 내용을 포함한 <a> 요소들을 선택하려면?*/
 
-/*[href*="item-3"], [href*="content-1"] {
+/*
+[href*="item-3"], [href*="content-1"] {
 	color:red;
 }
 
@@ -23,7 +24,8 @@
 
 
 
-/*.reset-list > li:last-child > a:first-child {
+/*.
+reset-list > li:last-child > a:first-child {
 	color: red
 }
 */
