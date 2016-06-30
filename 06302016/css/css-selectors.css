@@ -1,0 +1,15 @@
+/*.reset-list > li:last-child > a:first-child {
+	color: red
+}
+*/
+[href*="item-3"], [href*="content-1"] {
+	color:red;
+}
+
+[href^="child/item-3"], [href^="child/content-1"] {
+	font-size: 40px;
+}
+
+[href="child/item-3.html"], [href="child/content-1.html"] {
+	background-color: blue;
+}
