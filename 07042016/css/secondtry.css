@@ -121,6 +121,6 @@ div.txt-double {
     padding-top: 12%;
 }
 
-[class*=txt]:hover {
+li:hover {
     background-color: #fff1e2;
 }
