@@ -1,26 +1,47 @@
 /*element style*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
-p {
+p { 
+    margin-top: 7%;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
+    line-height: 1.5em;
+}
+
+a {
+    display: block;
+    height: 20px;
+    width: 30px;
+    background-image: url(../images/twitter-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid #000;
+    margin-top: 
 }
 
 
 /*li css*/
 
 .double {
-    width: 100%;
+    width: auto;
+    height: auto;
     float: left;
 }
 
 .single {
     width: 50%;
     float: left;
+    height: auto;
 }
 
 
@@ -29,10 +50,15 @@ p {
 .img-double {
     width: 50%;
     float: left;
+    height: auto;
 }
 
 .txt-double {
-    width: 50%;
+    width: 46%;
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: auto;
     float: right;
     display: block;
     text-align: center;
@@ -44,9 +70,13 @@ p {
 }
 
 .txt-right {
-    width: 50%;
+    width: 42%;
     float: right;
     text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 12%;
+    height: 100%;
 }
 
 
@@ -56,7 +86,14 @@ p {
 }
 
 .txt-left {
-    width: 50%;
+    width: 42%;
     float: left;
     text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 12%;
+}
+
+[class*=txt]:hover {
+    background-color: #fff1e2;
 }
