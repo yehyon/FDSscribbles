@@ -1,0 +1,76 @@
+body {
+	max-width: 1280px;
+	max-height: 981px;
+}
+
+div.double {
+	width: 100%;
+}
+
+div.single {
+	width: 50%;
+	float: left;
+}
+
+div:hover {
+	background-color: #fff1e2;
+}
+
+.txt-double > h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 0.72em;
+	padding-top: 6%;
+}
+
+.txt-double > span {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 0.6em;
+	display: block;
+	padding-top: 1.5%;
+	line-height: 1.5em;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.txt-single > h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 0.72em;
+	padding-top: 12%;
+}
+
+.txt-single > span {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 0.7em;
+	display: block;
+	padding-top: 1.5%;
+	line-height: 1.5em;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.cf::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.img-double {
+	float: left;
+	width: 50%;
+}
+
+.img-single-left {
+	float: left;
+	width: 50%;
+}
+
+.img-single-right {
+	float: right;
+	width: 50%;
+}
+
+
