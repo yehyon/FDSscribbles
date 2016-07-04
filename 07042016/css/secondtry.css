@@ -1,0 +1,43 @@
+/*li css*/
+
+.double {
+    width: 100%;
+    float: left;
+}
+
+.single {
+    width: 50%;
+    float: left;
+}
+
+
+/*second tier css*/
+
+.double-image {
+    width: 50%;
+}
+
+.double-text {
+    width: 50%;
+}
+
+.img-left {
+    width: 50%;
+    float: left;
+}
+
+.txt-right {
+    width: 50%;
+    float: right;
+}
+
+
+.img-right {
+    width: 50%;
+    float: right;
+}
+
+.txt-left {
+    width: 50%;
+    float: left;
+}
