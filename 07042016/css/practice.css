@@ -1,0 +1,95 @@
+body {
+    width: 900px;
+}
+
+img.first-image {
+    float: left;
+    width: 450px;
+}
+
+
+
+h2 {
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    padding-bottom: 18px;
+    line-height: 1.1;
+    color: #464646;
+}
+
+p.long {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #464646;
+}
+
+p.short {
+    width: 175px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #464646;
+}
+
+img.twittersvg {
+    width: 15px;
+    height: auto;
+}
+
+
+.twittersvg:hover {
+    fill: #0086b8;
+}
+
+a.svg {
+    margin-top: 13px;
+    width: 45px;
+    display: block;
+    padding-top: 16px;
+    border-top: 1px solid #000;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description {
+    float: left;
+    width: 450px;
+    height: 231px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.description:hover {
+    background-color: #fff1e2;
+}
+
+.description:hover::before {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid blue; 
+}
+
+.description-short {
+    width: 225px;
+    float: left;
+    height: 231px;
+    text-align: center;
+}
+
+.description-short:hover {
+    background-color: #fff1e2;
+}
+
+.small-image {
+    float: left;
+    width: 225px;
+}
